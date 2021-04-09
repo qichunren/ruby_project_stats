@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<style type="text/css" media="screen">
+  .container {
+    margin: 10px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  h1 {
+    margin: 30px 0;
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+</style>
+
+<div class="container">
+  <h1>Project stats</h1>
+
+  <table>
+      <thead>
+          <tr>
+              <th>Name</th>
+              <th>URL</th>
+              <th>Stars count</th>
+              <th>Last push time</th>
+          </tr>
+      </thead>
+      <tbody>
+        {% for project in page.projects %}
+        <tr>
+            <td>{{project.name}}</td>
+            <td>{{project.url}}</td>
+            <td>{{project.stargazers_count}}</td>
+            <td>{{project.pushed_at}}</td>
+        </tr>
+        {% endfor  %}
+      </tbody>
+  </table>
+</div>
