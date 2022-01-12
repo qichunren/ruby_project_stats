@@ -14,7 +14,7 @@ module RailsProjectStats
             end
             puts "Sync project #{project_url}"
             begin
-                response_data = open(project_url).read
+                response_data = URI.open(project_url).read
             rescue OpenURI::HTTPError
                 puts "Got error:" + $!.message
                 next
