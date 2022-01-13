@@ -4,6 +4,6 @@
     "postcss-cli": "^9.1.0"
   },
   "scripts": {
-    "build:css": "tailwindcss -m -i ./_assets/css/app.tailwind.css -o ./assets/css/app.css"
+    "build:css": "npx tailwindcss -m -i ./_assets/css/app.tailwind.css -o ./assets/css/app.css"
   }
 }
