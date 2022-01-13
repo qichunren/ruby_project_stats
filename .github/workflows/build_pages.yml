@@ -17,4 +17,5 @@ jobs:
           node-version: '16.13.0'      
       - run: yarn       
       - run: yarn build:css
-      - run: cd docs && bundle exec jekyll build
+      - run: bundle exec jekyll build -d docs/
+      - run: git branch -d github-pages
