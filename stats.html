@@ -2,23 +2,23 @@
 layout: default
 ---
 
-<div class="container">
-  <h1>Project stats</h1>
+<div class="container mx-auto mt-4">
+  <h1 class="text-2xl">Project stats</h1>
 
-  <table class="w-full whitespace-no-wrap">
+  <table class="mt-4 w-full whitespace-no-wrap">
       <thead>
         <tr class="text-xs font-semibold tracking-wide text-left text-gray-500 uppercase border-b dark:border-gray-700 bg-gray-50 dark:text-gray-400 dark:bg-gray-800">
-              <th>Name</th>
-              <th>URL</th>
-              <th>Stars count</th>
-              <th>Last push time</th>
+              <th class="px-4 py-3">Name</th>
+              <th class="px-4 py-3">URL</th>
+              <th class="px-4 py-3">Stars count</th>
+              <th class="px-4 py-3">Last push time</th>
           </tr>
       </thead>
       <tbody class="bg-white divide-y dark:divide-gray-700 dark:bg-gray-800">
         {% for project in page.projects %}
         <tr>
             <td>{{project.name}}</td>
-            <td class="px-4 py-3">{{project.url}}</td>
+            <td class="px-4 py-3"><a href="{{project.url}}" target="_blank" class="underline"></a>{{project.url}}</a></td>
             <td>{{project.stargazers_count}}</td>
             <td>{{project.pushed_at}}</td>
         </tr>
