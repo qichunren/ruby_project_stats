@@ -16,9 +16,9 @@ layout: default
       </thead>
       <tbody class="bg-white divide-y dark:divide-gray-700 dark:bg-gray-800">
         {% for project in page.projects %}
-        <tr>
+        <tr class="hover:bg-gray-300">
             <td>{{project.name}}</td>
-            <td class="px-4 py-3"><a href="{{project.url}}" target="_blank" class="underline"></a>{{project.url}}</a></td>
+            <td class="px-4 py-3"><a href="{{project.url}}" target="_blank" class="underline">{{project.url}}</a></a></td>
             <td>{{project.stargazers_count}}</td>
             <td>{{project.pushed_at}}</td>
         </tr>
