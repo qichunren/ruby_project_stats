@@ -1,6 +1,7 @@
 {
   "devDependencies": {
-    "tailwindcss": "^3.0.13"
+    "tailwindcss": "^3.0.13",
+    "postcss-cli": "^9.1.0"
   },
   "scripts": {
     "build:css": "tailwindcss -m -i ./_assets/css/app.tailwind.css -o ./assets/css/app.css"
