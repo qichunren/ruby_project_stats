@@ -58,7 +58,9 @@ module RailsProjectStats
             project_meta = {}
             project_url = project_url_item["url"]
             project_id = project_url_item["id"].to_i
-            need_dump = (project_id == 0)
+            if project_id == 0
+                need_dump = true    
+            end
             if project_url.end_with?(".git")
               project_url.chomp!(".git")
             end
