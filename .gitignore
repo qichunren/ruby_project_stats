@@ -1,4 +1,5 @@
 node_modules/
 .jekyll-cache/
-/assets/css/app.css
+.bundle/config
+docs/assets/css/app.css
 /_site
