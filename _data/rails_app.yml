@@ -1,16 +1,55 @@
 ---
-- url: https://github.com/chatwoot/chatwoot
-- url: https://github.com/sudara/alonetone
-- url: https://github.com/diaspora/diaspora
-- url: https://github.com/hackershare/hackershare
-- url: https://github.com/publify/publify
-- url: https://github.com/sharetribe/sharetribe
-- url: https://github.com/24pullrequests/24pullrequests
+- id: 202291859
+  name: chatwoot/chatwoot
+  description: "Open-source customer engagement suite, an alternative to Intercom,
+    Zendesk, Salesforce Service Cloud etc. \U0001F525\U0001F4AC"
+  url: https://github.com/chatwoot/chatwoot
+  pushed_at: '2022-01-14T10:42:56Z'
+  stargazers_count: 11796
+- id: 3456
+  name: sudara/alonetone
+  description: A free, open source, non-commercial home for musicians and their music
+  url: https://github.com/sudara/alonetone
+  pushed_at: '2022-01-13T19:23:42Z'
+  stargazers_count: 289
+- id: 911765
+  name: diaspora/diaspora
+  description: A privacy-aware, distributed, open source social network.
+  url: https://github.com/diaspora/diaspora
+  pushed_at: '2022-01-06T14:05:13Z'
+  stargazers_count: 12952
+- id: 282779535
+  name: hackershare/hackershare
+  description: Hackershare is a powerful social bookmarking service and a knowledge-sharing
+    community, with advanced search and tag management feature
+  url: https://github.com/hackershare/hackershare
+  pushed_at: '2022-01-06T09:21:51Z'
+  stargazers_count: 294
+- id: 66801
+  name: publify/publify
+  description: A self hosted Web publishing platform on Rails.
+  url: https://github.com/publify/publify
+  pushed_at: '2022-01-08T07:16:03Z'
+  stargazers_count: 1776
+- id: 4447023
+  name: sharetribe/sharetribe
+  description: 'Sharetribe Go is a source available marketplace software, also available
+    as a hosted, no-code SaaS product. For a headless, API-first marketplace solution,
+    check out Sharetribe Flex: https://www.sharetribe.com/flex.'
+  url: https://github.com/sharetribe/sharetribe
+  pushed_at: '2022-01-12T15:01:18Z'
+  stargazers_count: 2192
+- id: 6673802
+  name: 24pullrequests/24pullrequests
+  description: ":christmas_tree: Giving back to open source for the holidays"
+  url: https://github.com/24pullrequests/24pullrequests
+  pushed_at: '2022-01-14T08:24:17Z'
+  stargazers_count: 1419
 - id: 2500088
   name: gitlabhq/gitlabhq
   description: GitLab CE Mirror | Please open new issues in our issue tracker on GitLab.com
   url: https://github.com/gitlabhq/gitlabhq
-  pushed_at: '2022-01-14T06:15:36Z'
+  pushed_at: '2022-01-14T03:16:54Z'
   stargazers_count: 22818
 - id: 3842593
   name: ruby-china/homeland
@@ -23,7 +62,7 @@
   name: forem/forem
   description: "For empowering community \U0001F331"
   url: https://github.com/forem/forem
-  pushed_at: '2022-01-14T07:23:14Z'
+  pushed_at: '2022-01-14T06:08:43Z'
   stargazers_count: 18457
 - id: 6768710
   name: redmine/redmine
@@ -31,7 +70,7 @@
     - contact: @jbbarth or jeanbaptiste.barth (at) gmail (dot) com'
   url: https://github.com/redmine/redmine
   pushed_at: '2022-01-13T01:25:04Z'
-  stargazers_count: 4275
+  stargazers_count: 4274
 - id: 7569578
   name: discourse/discourse
   description: A platform for community discussion. Free, open, simple.
