@@ -1,5 +1,6 @@
 node_modules/
 .jekyll-cache/
 .bundle/config
+vendor/bundle/ruby/
 docs/assets/css/app.css
 /_site
