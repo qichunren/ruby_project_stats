@@ -1,0 +1,9 @@
+---
+- url: https://github.com/rails/importmap-rails
+- url: https://github.com/rails/webpacker
+- url: https://github.com/rails/sprockets
+- url: https://github.com/hotwired/turbo
+- url: https://github.com/hotwired/stimulus
+- url: https://github.com/reactjs/react-rails
+- url: https://github.com/shakacode/react_on_rails
+- url: https://github.com/sharetribe/sharetribe

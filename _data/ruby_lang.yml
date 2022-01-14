@@ -1,0 +1,6 @@
+---
+- url: https://github.com/ruby/ruby
+- url: https://github.com/mruby/mruby
+- url: https://github.com/jruby/jruby
+- url: https://github.com/rubygems/rubygems
+- url: https://github.com/ffi/ffi

@@ -1,0 +1,7 @@
+---
+- url: https://github.com/heartcombo/devise
+- url: https://github.com/activerecord-hackery/ransack
+- url: https://github.com/mperham/sidekiq
+- url: https://github.com/redis/redis-rb
+- url: https://github.com/ddnexus/pagy
+- url: https://github.com/rails/thor

@@ -50,6 +50,8 @@ module RailsProjectStats
       end
 
       def preate_data_for_project_page(site, page_name)
+        puts site.data.inspect
+        puts "Prepage data for page #{page_name}.html"
         projects_data = []
         need_dump = false
         site.data[page_name].each do |project_url_item|
@@ -65,16 +67,17 @@ module RailsProjectStats
             end
             
             json_data = fetch_repo_data(project_url_item)
-
-            project_meta["id"] = json_data["id"]
-            project_meta["name"] = json_data["full_name"]
-            project_meta["description"] = json_data["description"]
-            project_meta["url"] = json_data["html_url"]
-            project_meta["pushed_at"] = json_data["pushed_at"]
-            project_meta["stargazers_count"] = json_data["stargazers_count"]
-            projects_data << project_meta
+            if json_data
+              project_meta["id"] = json_data["id"]
+              project_meta["name"] = json_data["full_name"]
+              project_meta["description"] = json_data["description"]
+              project_meta["url"] = json_data["html_url"]
+              project_meta["pushed_at"] = json_data["pushed_at"]
+              project_meta["stargazers_count"] = json_data["stargazers_count"]
+              projects_data << project_meta
+            end
         end
-        if need_dump
+        if need_dump && !projects_data.empty?
           projects_data_d = projects_data.clone
           projects_data_d.each do |p|
             p.delete(:description)
@@ -84,13 +87,16 @@ module RailsProjectStats
 
         page_tpl = site.pages.find { |page| page.name == "#{page_name}.html"}
         puts "page_tpl:#{page_tpl.inspect}"
-        page_tpl.data['projects'] = projects_data
+        if page_tpl
+          page_tpl.data['projects'] = projects_data
+        end
       end
       
       def generate(site)
         preate_data_for_project_page(site, "ruby_lang")
-        preate_data_for_project_page(site, "stats")
+        preate_data_for_project_page(site, "rails_lib")
         preate_data_for_project_page(site, "rails_app")
+        preate_data_for_project_page(site, "rails_front")
       end
     end
   end
