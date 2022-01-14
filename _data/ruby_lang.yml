@@ -1,6 +1,31 @@
 ---
-- url: https://github.com/ruby/ruby
-- url: https://github.com/mruby/mruby
-- url: https://github.com/jruby/jruby
-- url: https://github.com/rubygems/rubygems
-- url: https://github.com/ffi/ffi
+- id: 538746
+  name: ruby/ruby
+  description: The Ruby Programming Language [mirror]
+  url: https://github.com/ruby/ruby
+  pushed_at: '2022-01-14T08:41:39Z'
+  stargazers_count: 18793
+- id: 4073516
+  name: mruby/mruby
+  description: Lightweight Ruby
+  url: https://github.com/mruby/mruby
+  pushed_at: '2022-01-14T02:41:32Z'
+  stargazers_count: 4886
+- id: 168370
+  name: jruby/jruby
+  description: JRuby, an implementation of Ruby on the JVM
+  url: https://github.com/jruby/jruby
+  pushed_at: '2022-01-13T22:17:51Z'
+  stargazers_count: 3580
+- id: 614070
+  name: rubygems/rubygems
+  description: Library packaging and distribution for Ruby.
+  url: https://github.com/rubygems/rubygems
+  pushed_at: '2022-01-14T06:09:52Z'
+  stargazers_count: 2927
+- id: 270054
+  name: ffi/ffi
+  description: Ruby FFI
+  url: https://github.com/ffi/ffi
+  pushed_at: '2022-01-12T14:37:39Z'
+  stargazers_count: 1915

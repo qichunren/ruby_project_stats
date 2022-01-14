@@ -1,7 +1,37 @@
 ---
-- url: https://github.com/heartcombo/devise
-- url: https://github.com/activerecord-hackery/ransack
-- url: https://github.com/mperham/sidekiq
-- url: https://github.com/redis/redis-rb
-- url: https://github.com/ddnexus/pagy
-- url: https://github.com/rails/thor
+- id: 308770
+  name: heartcombo/devise
+  description: Flexible authentication solution for Rails with Warden.
+  url: https://github.com/heartcombo/devise
+  pushed_at: '2022-01-12T10:29:41Z'
+  stargazers_count: 22136
+- id: 1548802
+  name: activerecord-hackery/ransack
+  description: 'Object-based searching. '
+  url: https://github.com/activerecord-hackery/ransack
+  pushed_at: '2021-12-25T18:02:17Z'
+  stargazers_count: 5040
+- id: 3195124
+  name: mperham/sidekiq
+  description: Simple, efficient background processing for Ruby
+  url: https://github.com/mperham/sidekiq
+  pushed_at: '2022-01-13T18:22:41Z'
+  stargazers_count: 11493
+- id: 137805
+  name: redis/redis-rb
+  description: A Ruby client library for Redis
+  url: https://github.com/redis/redis-rb
+  pushed_at: '2022-01-08T23:41:22Z'
+  stargazers_count: 3754
+- id: 115859973
+  name: ddnexus/pagy
+  description: "\U0001F3C6 The Best Pagination Ruby Gem \U0001F947"
+  url: https://github.com/ddnexus/pagy
+  pushed_at: '2022-01-14T04:25:52Z'
+  stargazers_count: 3376
+- id: 15257
+  name: rails/thor
+  description: Thor is a toolkit for building powerful command-line interfaces.
+  url: https://github.com/rails/thor
+  pushed_at: '2022-01-10T14:02:27Z'
+  stargazers_count: 4822

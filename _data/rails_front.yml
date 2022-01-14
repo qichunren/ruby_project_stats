@@ -1,9 +1,56 @@
 ---
-- url: https://github.com/rails/importmap-rails
-- url: https://github.com/rails/webpacker
-- url: https://github.com/rails/sprockets
-- url: https://github.com/hotwired/turbo
-- url: https://github.com/hotwired/stimulus
-- url: https://github.com/reactjs/react-rails
-- url: https://github.com/shakacode/react_on_rails
-- url: https://github.com/sharetribe/sharetribe
+- id: 390548093
+  name: rails/importmap-rails
+  description: Use ESM with importmap to manage modern JavaScript in Rails without
+    transpiling or bundling.
+  url: https://github.com/rails/importmap-rails
+  pushed_at: '2022-01-14T01:07:56Z'
+  stargazers_count: 555
+- id: 75785147
+  name: rails/webpacker
+  description: Use Webpack to manage app-like JavaScript modules in Rails
+  url: https://github.com/rails/webpacker
+  pushed_at: '2022-01-14T02:30:36Z'
+  stargazers_count: 5289
+- id: 32104924
+  name: rails/sprockets
+  description: Rack-based asset packaging system
+  url: https://github.com/rails/sprockets
+  pushed_at: '2022-01-13T14:02:40Z'
+  stargazers_count: 820
+- id: 319370263
+  name: hotwired/turbo
+  description: The speed of a single-page web application without having to write
+    any JavaScript
+  url: https://github.com/hotwired/turbo
+  pushed_at: '2022-01-05T02:09:32Z'
+  stargazers_count: 3363
+- id: 76694515
+  name: hotwired/stimulus
+  description: A modest JavaScript framework for the HTML you already have
+  url: https://github.com/hotwired/stimulus
+  pushed_at: '2022-01-13T20:27:00Z'
+  stargazers_count: 11098
+- id: 11667865
+  name: reactjs/react-rails
+  description: Integrate React.js with Rails views and controllers, the asset pipeline,
+    or webpacker.
+  url: https://github.com/reactjs/react-rails
+  pushed_at: '2022-01-13T19:52:47Z'
+  stargazers_count: 6431
+- id: 41117523
+  name: shakacode/react_on_rails
+  description: Integration of React + Webpack + Rails + rails/webpacker including
+    server-side rendering of React, enabling a better developer experience and faster
+    client performance.
+  url: https://github.com/shakacode/react_on_rails
+  pushed_at: '2022-01-14T03:45:25Z'
+  stargazers_count: 4824
+- id: 4447023
+  name: sharetribe/sharetribe
+  description: 'Sharetribe Go is a source available marketplace software, also available
+    as a hosted, no-code SaaS product. For a headless, API-first marketplace solution,
+    check out Sharetribe Flex: https://www.sharetribe.com/flex.'
+  url: https://github.com/sharetribe/sharetribe
+  pushed_at: '2022-01-12T15:01:18Z'
+  stargazers_count: 2192
