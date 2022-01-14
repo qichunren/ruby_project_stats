@@ -1,4 +1,5 @@
 ---
+- url: https://github.com/gitlabhq/gitlabhq.git
 - id: 73648678
   name: forem/forem
   url: https://github.com/forem/forem.git
