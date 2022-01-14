@@ -11,6 +11,9 @@ module RailsProjectStats
             project_meta = {}
             project_url = project_url_item["url"]
             project_id = project_url_item["id"].to_i
+            if project_url.end_with?(".git")
+              project_url.sub!(".git", "")
+            end
             if project_url.start_with?("https://github.com/")
                 project_url.sub!("https://github.com/", "https://api.github.com/repos/")    
             end

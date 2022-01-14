@@ -16,13 +16,29 @@ layout: default
       </thead>
       <tbody class="bg-white divide-y dark:divide-gray-700 dark:bg-gray-800">
         {% for project in page.projects %}
-        <tr class="hover:bg-gray-300">
+        <tr class="hover:bg-gray-200">
             <td>{{project.name}}</td>
             <td class="px-4 py-3"><a href="{{project.url}}" target="_blank" class="underline">{{project.url}}</a></a></td>
-            <td>{{project.stargazers_count}}</td>
+            <td><span class="star_count">{{project.stargazers_count}}</span></td>
             <td>{{project.pushed_at}}</td>
         </tr>
         {% endfor  %}
       </tbody>
   </table>
 </div>
+<script type="text/javascript">
+  document.addEventListener('DOMContentLoaded',function(){
+    function kFormatter(num) {
+      return Math.abs(num) > 999 ? Math.sign(num)*((Math.abs(num)/1000).toFixed(1)) + 'k' : Math.sign(num)*Math.abs(num)
+    }
+
+    var starCountItems = userList.querySelectorAll("span.star_count");
+    starCountItems.forEach(function(starCountItem) {
+      var c = parseInt(starCountItem.innerText);
+      starCountItem.innerText = kFormatter(c);
+    });
+
+  });
+  
+
+</script>
