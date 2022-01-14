@@ -12,7 +12,7 @@ module RailsProjectStats
             project_url = project_url_item["url"]
             project_id = project_url_item["id"].to_i
             if project_url.end_with?(".git")
-              project_url.sub!(".git", "")
+              project_url.chomp!(".git")
             end
             if project_url.start_with?("https://github.com/")
                 project_url.sub!("https://github.com/", "https://api.github.com/repos/")    
@@ -57,7 +57,7 @@ module RailsProjectStats
             #puts response_data
             project_meta["id"] = json_data["id"]
             project_meta["name"] = json_data["full_name"]
-            project_meta["url"] = json_data["clone_url"]
+            project_meta["url"] = json_data["html_url"]
             project_meta["pushed_at"] = json_data["pushed_at"]
             project_meta["stargazers_count"] = json_data["stargazers_count"]
             projects_data << project_meta
