@@ -10,17 +10,17 @@ layout: default
         <tr class="text-xs font-semibold tracking-wide text-left text-gray-500 uppercase border-b dark:border-gray-700 bg-gray-50 dark:text-gray-400 dark:bg-gray-800">
               <th class="px-4 py-3">Name</th>
               <th class="px-4 py-3">URL</th>
-              <th class="px-4 py-3">Stars count</th>
-              <th class="px-4 py-3">Last push time</th>
+              <th class="px-4 py-3 text-right">Stars count</th>
+              <th class="px-4 py-3 text-right">Last push time</th>
           </tr>
       </thead>
       <tbody class="bg-white divide-y dark:divide-gray-700 dark:bg-gray-800">
         {% for project in page.projects %}
-        <tr class="hover:bg-gray-200">
+        <tr class="hover:bg-gray-100">
             <td>{{project.name}}</td>
             <td class="px-4 py-3"><a href="{{project.url}}" target="_blank" class="underline hover:cursor-pointer">{{project.url}}</a></a></td>
-            <td><span class="star_count">{{project.stargazers_count}}</span></td>
-            <td>{{project.pushed_at}}</td>
+            <td class="text-right pr-4"><span class="star_count px-1 text-gray-700 bg-gray-300 p rounded-md" title="{{project.stargazers_count}}">{{project.stargazers_count}}</span></td>
+            <td class="text-right pr-4"><span class="timeago text-gray-800">{{project.pushed_at}}</span></td>
         </tr>
         {% endfor  %}
       </tbody>
@@ -32,10 +32,60 @@ layout: default
       return Math.abs(num) > 999 ? Math.sign(num)*((Math.abs(num)/1000).toFixed(1)) + 'k' : Math.sign(num)*Math.abs(num)
     }
 
+    function timeAgo(dateString) {    
+      const date = new Date(dateString);
+      const DAY_IN_MS = 86400000; // 24 * 60 * 60 * 1000
+      const today = new Date();
+      const seconds = Math.round((today - date) / 1000);
+
+      if (seconds < 20) {
+          return 'just now';
+      }
+      else if (seconds < 60) {
+          return 'about a minute ago';
+      }
+
+      const minutes = Math.round(seconds / 60);
+      if (minutes < 60) {
+          return `${minutes} minutes ago`;
+      }
+
+      const isToday = today.toDateString() === date.toDateString();
+      if (isToday) {
+          return 'Today'
+      }
+
+      const yesterday = new Date(today - DAY_IN_MS);
+      const isYesterday = yesterday.toDateString() === date.toDateString();
+      if (isYesterday) {
+          return 'Yesterday'
+      }
+
+      const daysDiff = Math.round((today - date) / (1000 * 60 * 60 * 24));
+      if (daysDiff < 30) {
+          return `${daysDiff} days ago`;
+      }
+
+      const monthsDiff = today.getMonth() - date.getMonth() + (12 * (today.getFullYear() - date.getFullYear()));
+      if (monthsDiff < 12) {
+          return `${monthsDiff} months ago`;
+      }
+
+      const yearsDiff = today.getYear() - date.getYear();
+
+      return `${yearsDiff} years ago`;
+    }
+
     var starCountItems = document.querySelectorAll("span.star_count");
     starCountItems.forEach(function(starCountItem) {
       var c = parseInt(starCountItem.innerText);
       starCountItem.innerText = kFormatter(c);
+    });
+
+    var timeagoItems = document.querySelectorAll("span.timeago");
+    timeagoItems.forEach(function(timeagoItem) {
+      var d = timeagoItem.innerText;
+      timeagoItem.innerText = timeAgo(d);
     });
 
   });

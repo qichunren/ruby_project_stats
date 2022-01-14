@@ -20,20 +20,23 @@ module RailsProjectStats
             need_sync_repo = false
             response_data = nil
             if project_id > 0
-              cache_repo_json = File.expand_path("../../_data/repos/#{project_id}.json")
+              cache_repo_json = File.expand_path("../../_data/repos/#{project_id}.json", __FILE__)
               if File.exist?(cache_repo_json)
                 if Time.now - File.mtime(cache_repo_json) > 86400 # 60 * 60 * 24
                   need_sync_repo = true
+                  puts "#{project_url} old"
                 else
                   response_data = File.read(cache_repo_json)
                   json_data = JSON.parse(response_data) rescue {}
                 end
               else
                 need_sync_repo = true
+                puts "#{cache_repo_json} no exist"
               end
             else
               need_sync_repo = true
               need_dump = true
+              puts "#{project_url} new added first"
             end
 
             if need_sync_repo
