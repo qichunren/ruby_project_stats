@@ -18,7 +18,7 @@ layout: default
         {% for project in page.projects %}
         <tr class="hover:bg-gray-200">
             <td>{{project.name}}</td>
-            <td class="px-4 py-3"><a href="{{project.url}}" target="_blank" class="underline">{{project.url}}</a></a></td>
+            <td class="px-4 py-3"><a href="{{project.url}}" target="_blank" class="underline hover:cursor-pointer">{{project.url}}</a></a></td>
             <td><span class="star_count">{{project.stargazers_count}}</span></td>
             <td>{{project.pushed_at}}</td>
         </tr>
@@ -32,7 +32,7 @@ layout: default
       return Math.abs(num) > 999 ? Math.sign(num)*((Math.abs(num)/1000).toFixed(1)) + 'k' : Math.sign(num)*Math.abs(num)
     }
 
-    var starCountItems = userList.querySelectorAll("span.star_count");
+    var starCountItems = document.querySelectorAll("span.star_count");
     starCountItems.forEach(function(starCountItem) {
       var c = parseInt(starCountItem.innerText);
       starCountItem.innerText = kFormatter(c);
