@@ -5,6 +5,7 @@
 - url: https://github.com/hackershare/hackershare
 - url: https://github.com/publify/publify
 - url: https://github.com/sharetribe/sharetribe
+- url: https://github.com/24pullrequests/24pullrequests
 - id: 2500088
   name: gitlabhq/gitlabhq
   description: GitLab CE Mirror | Please open new issues in our issue tracker on GitLab.com
