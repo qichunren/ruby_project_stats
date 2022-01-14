@@ -1,0 +1,59 @@
+---
+- url: https://github.com/chatwoot/chatwoot
+- url: https://github.com/sudara/alonetone
+- url: https://github.com/diaspora/diaspora
+- url: https://github.com/hackershare/hackershare
+- url: https://github.com/publify/publify
+- url: https://github.com/sharetribe/sharetribe
+- id: 2500088
+  name: gitlabhq/gitlabhq
+  description: GitLab CE Mirror | Please open new issues in our issue tracker on GitLab.com
+  url: https://github.com/gitlabhq/gitlabhq
+  pushed_at: '2022-01-14T06:15:36Z'
+  stargazers_count: 22818
+- id: 3842593
+  name: ruby-china/homeland
+  description: ":circus_tent: An open source forum/community system based on Rails,
+    developed based on Ruby China."
+  url: https://github.com/ruby-china/homeland
+  pushed_at: '2022-01-13T15:45:49Z'
+  stargazers_count: 3520
+- id: 73648678
+  name: forem/forem
+  description: "For empowering community \U0001F331"
+  url: https://github.com/forem/forem
+  pushed_at: '2022-01-14T07:23:14Z'
+  stargazers_count: 18457
+- id: 6768710
+  name: redmine/redmine
+  description: 'Mirror of redmine code source - Official SVN repository is at https://svn.redmine.org/redmine
+    - contact: @jbbarth or jeanbaptiste.barth (at) gmail (dot) com'
+  url: https://github.com/redmine/redmine
+  pushed_at: '2022-01-13T01:25:04Z'
+  stargazers_count: 4275
+- id: 7569578
+  name: discourse/discourse
+  description: A platform for community discussion. Free, open, simple.
+  url: https://github.com/discourse/discourse
+  pushed_at: '2022-01-14T04:07:21Z'
+  stargazers_count: 34786
+- id: 33225130
+  name: helpyio/helpy
+  description: Helpy is a modern, open source helpdesk customer support application.
+    Features include knowledgebase, community discussions and support tickets integrated
+    with email.
+  url: https://github.com/helpyio/helpy
+  pushed_at: '2021-10-20T21:51:52Z'
+  stargazers_count: 2145
+- id: 14379065
+  name: glacials/splits-io
+  description: a speedrunning data store, analysis engine, and racing platform
+  url: https://github.com/glacials/splits-io
+  pushed_at: '2022-01-13T15:04:37Z'
+  stargazers_count: 112
+- id: 117646
+  name: rubygems/rubygems.org
+  description: The Ruby community's gem hosting service.
+  url: https://github.com/rubygems/rubygems.org
+  pushed_at: '2022-01-13T14:04:32Z'
+  stargazers_count: 2012
