@@ -1,4 +1,9 @@
 ---
+- url: https://github.com/bridgetownrb/serbea
+- url: https://github.com/github/view_component
+- url: https://github.com/stimulusreflex/stimulus_reflex
+- url: https://github.com/stimulus-use/stimulus-use
+- url: https://github.com/excid3/tailwindcss-stimulus-components
 - id: 390548093
   name: rails/importmap-rails
   description: Use ESM with importmap to manage modern JavaScript in Rails without

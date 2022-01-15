@@ -1,4 +1,5 @@
 ---
+- url: https://github.com/kiraka/annict-web
 - id: 202291859
   name: chatwoot/chatwoot
   description: "Open-source customer engagement suite, an alternative to Intercom,
