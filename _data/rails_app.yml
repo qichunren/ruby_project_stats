@@ -1,5 +1,10 @@
 ---
-- url: https://github.com/kiraka/annict-web
+- id: 21744872
+  name: kiraka/annict-web
+  description: A platform for anime addicts built with Rails and Hotwire.
+  url: https://github.com/kiraka/annict-web
+  pushed_at: '2022-01-14T01:18:52Z'
+  stargazers_count: 582
 - id: 202291859
   name: chatwoot/chatwoot
   description: "Open-source customer engagement suite, an alternative to Intercom,

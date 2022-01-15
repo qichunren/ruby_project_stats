@@ -1,9 +1,37 @@
 ---
-- url: https://github.com/bridgetownrb/serbea
-- url: https://github.com/github/view_component
-- url: https://github.com/stimulusreflex/stimulus_reflex
-- url: https://github.com/stimulus-use/stimulus-use
-- url: https://github.com/excid3/tailwindcss-stimulus-components
+- id: 282029386
+  name: bridgetownrb/serbea
+  description: The Ruby template engine you didn't realize you needed. Until now.
+  url: https://github.com/bridgetownrb/serbea
+  pushed_at: '2021-11-12T03:48:13Z'
+  stargazers_count: 21
+- id: 200302808
+  name: github/view_component
+  description: A framework for building reusable, testable & encapsulated view components
+    in Ruby on Rails.
+  url: https://github.com/github/view_component
+  pushed_at: '2022-01-14T21:23:28Z'
+  stargazers_count: 2223
+- id: 152975883
+  name: stimulusreflex/stimulus_reflex
+  description: Build reactive applications with the Rails tooling you already know
+    and love.
+  url: https://github.com/stimulusreflex/stimulus_reflex
+  pushed_at: '2022-01-05T21:54:25Z'
+  stargazers_count: 1936
+- id: 264849287
+  name: stimulus-use/stimulus-use
+  description: A collection of composable behaviors for your Stimulus Controllers
+  url: https://github.com/stimulus-use/stimulus-use
+  pushed_at: '2022-01-14T09:52:46Z'
+  stargazers_count: 739
+- id: 160866862
+  name: excid3/tailwindcss-stimulus-components
+  description: A set of StimulusJS components for TailwindCSS apps similar to Bootstrap
+    JS components.
+  url: https://github.com/excid3/tailwindcss-stimulus-components
+  pushed_at: '2022-01-15T02:44:54Z'
+  stargazers_count: 753
 - id: 390548093
   name: rails/importmap-rails
   description: Use ESM with importmap to manage modern JavaScript in Rails without
