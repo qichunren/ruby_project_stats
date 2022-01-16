@@ -1,4 +1,7 @@
 ---
+- url: https://github.com/SpinaCMS/Spina
+- url: https://github.com/huginn/huginn
+- url: https://github.com/spree/spree
 - id: 21744872
   name: kiraka/annict-web
   description: A platform for anime addicts built with Rails and Hotwire.
