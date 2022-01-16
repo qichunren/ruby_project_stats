@@ -1,7 +1,24 @@
 ---
-- url: https://github.com/SpinaCMS/Spina
-- url: https://github.com/huginn/huginn
-- url: https://github.com/spree/spree
+- id: 31666151
+  name: SpinaCMS/Spina
+  description: Spina CMS
+  url: https://github.com/SpinaCMS/Spina
+  pushed_at: '2022-01-14T13:44:07Z'
+  stargazers_count: 1952
+- id: 8681349
+  name: huginn/huginn
+  description: Create agents that monitor and act on your behalf.  Your agents are
+    standing by!
+  url: https://github.com/huginn/huginn
+  pushed_at: '2022-01-16T09:20:12Z'
+  stargazers_count: 32992
+- id: 3314
+  name: spree/spree
+  description: Open Source headless multi-language/multi-currency/multi-store eCommerce
+    platform
+  url: https://github.com/spree/spree
+  pushed_at: '2022-01-16T10:34:28Z'
+  stargazers_count: 11619
 - id: 21744872
   name: kiraka/annict-web
   description: A platform for anime addicts built with Rails and Hotwire.
