@@ -1,0 +1,27 @@
+- title: Ruby lang
+  url: https://www.ruby-lang.org/
+  logo: https://www.ruby-lang.org/images/header-ruby-logo.png
+
+- title: mruby
+  url: https://mruby.org/
+  logo: https://mruby.org/assets/images/mruby_logo_red_icon.png
+
+- title: Ruby On Rails
+  url: https://rubyonrails.org/
+  logo: https://rubyonrails.org/assets/images/apple-touch-icon.png
+
+- title: Hotwire
+  url: https://hotwired.dev/
+  logo: https://hotwired.dev/assets/icons/favicon-196x196.png
+
+- title: Ruby Weekly
+  url: https://rubyweekly.com/
+  logo: https://rubyweekly.com/favicon.png
+
+- title: Ruby Radar
+  url: https://rubyradar.dev/
+  logo: https://d3jbm9h03wxzi9.cloudfront.net/assets/favicon-4bca5727fc21fa6ee2a6ae554a6c236825acdd046c481ffce5748911f8b1f4a3.ico
+
+- title: GoRails
+  url: https://gorails.com/
+  logo: https://gorails.com/favicon-32x32.png
