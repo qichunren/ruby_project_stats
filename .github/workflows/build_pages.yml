@@ -15,13 +15,6 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '16.14.0'      
-      - run: yarn       
-      - run: yarn build:css
-      - run: bundle exec jekyll build -d docs/
-      - run: |
-          git config --local user.email "whyruby@gmail.com"
-          git config --local user.name "qichunren"
-          git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-          git add .
-          git commit --allow-empty -m "Build pages"
-          git push
+      - run: npm install
+      - run: yarn build      
+      

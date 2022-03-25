@@ -21,7 +21,7 @@ export default function Home() {
     <>    
       <Head>
         <title>Ruby project stats</title>
-        <meta name="description" content="Photonicat router" />
+        <meta name="description" content="" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <section id="hero" className="my-2 container mx-auto text-black grid grid-cols-4 grid-flow-row gap-4">
