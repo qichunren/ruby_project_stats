@@ -4,3 +4,5 @@ node_modules/
 vendor/bundle/ruby/
 docs/assets/css/app.css
 /_site
+.next/
+.DS_Store

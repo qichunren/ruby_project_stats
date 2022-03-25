@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+	font-family: 'Orbitron', sans-serif;
+}
+
+footer p {
+	font-family: 'Orbitron', sans-serif;
+}
+
+.langSwitcher {
+	@apply text-sm;
+}
+
+.langSwitcher [data-is-current="true"] ,
+.langSwitcher [data-language-switcher]:hover,
+.langSwitcher [data-language-switcher]:focus,
+.langSwitcher [data-language-switcher]:active {	
+	border-bottom: 1px solid #496F94;
+}

@@ -1,11 +1,23 @@
 {
   "dependencies": {
-    "postcss": "^8.4.8"
+    "next": "12.1.0",
+    "next-export-i18n": "^1.4.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "eslint": "8.11.0",
+    "eslint-config-next": "12.1.0",
+    "postcss": "^8.4.12",
     "tailwindcss": "^3.0.23"
   },
   "scripts": {
-    "build:css": "tailwindcss -m -i ./_assets/css/app.tailwind.css -o ./assets/css/app.css"
+    "build:css": "tailwindcss -m -i ./_assets/css/app.tailwind.css -o ./assets/css/app.css",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   }
 }
